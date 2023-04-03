@@ -1,0 +1,122 @@
+@media (min-width: 641px) and (max-width: 1200px)  {
+	
+	body {
+	  min-width: 100%;
+    }
+	
+	.header {
+	  background-image: url(../images/banner-bg-tablet.jpg);
+	}
+	 
+	.header-container {
+	  box-sizing: border-box;
+	  width: 100%;
+	  max-width: 100%;	  
+	}
+	
+	.menu-button-tablet {
+      display: unset;
+	  margin-top: 10px;
+	}
+	 
+	.menu-list {
+	  display: none;
+	}
+	
+	.logo {
+	  width: 158px;
+	  height: 36px;
+	  margin-left: 2px;  
+	}
+	 
+	.title {
+	  font-size: 40px;
+	  line-height: 55px;
+	  width: 605px;
+	  margin-top: 102px;
+	}
+	
+	.card  {
+	  flex-wrap: wrap;
+	}
+	
+	.div-box {
+	  box-sizing: border-box;
+	  justify-content: center;
+	  width: 100%;
+	  max-width: 100%;
+	  gap: 0 28px;	 
+ 	}
+	
+	.article-container {
+	  width: 100%;
+	  max-width: 392px;
+	  flex-direction: column;
+	  margin-bottom: 44px;
+	  border-bottom: 4px solid #eeeeee;
+	  padding-bottom: 20px;
+	}
+		
+	.article-contant {
+	  margin-left: 0px;
+	  width: 100%;
+	}
+	
+	.article-contant-text {
+	  width: 100%;
+	}
+	
+	.picture {
+      width: 100%;
+      height: 100%;
+	  margin-bottom: 18px;
+    }
+	
+	.article-contant-text {
+	  margin-top: 12px;
+	}
+	
+	.section-card-shop {
+	  box-sizing: border-box;
+	  width: 100%;
+	  max-width: 100%;
+	}
+		
+	.article-card {
+	  width: calc(50% - 3px);
+	  margin-bottom: 6px;
+	}
+	
+	.card-shop {
+	  flex-wrap: wrap;
+	  box-sizing: border-box;	  
+	}
+	
+	.article-card-shop {
+	  width: calc(50% - 14px);
+	  margin-bottom: 28px;
+	}
+		
+	.footer-conteiner {
+	  width: 100%;
+	  min-width: 100%;
+	}
+	
+	/*	
+	.picture {
+      width: 390px;
+      height: 304px;
+    } */
+}
+
+@media (min-width: 642px) and (max-width: 675px) {
+	
+	.box-sold {
+	 height: 282px;
+	}
+	
+	.box-sold-third {
+	  height: 298px;	
+	}
+}
+
